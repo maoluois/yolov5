@@ -1,0 +1,13 @@
+train: ./datasets/archive/train/images
+val: ./datasets/archive/valid/images
+test: ./datasets/archive/test/images
+
+nc: 1
+names: ['volleyball']
+
+roboflow:
+  workspace: volleyvision
+  project: volleyball-tracking
+  version: 13
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/volleyvision/volleyball-tracking/dataset/13
